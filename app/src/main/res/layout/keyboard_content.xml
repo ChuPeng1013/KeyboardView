@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#b5b5b6"
+    android:orientation="horizontal" >
+
+    <Button
+        android:id="@+id/one"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:background="@drawable/keyboard_selector_one"/>
+
+    <Button
+        android:id="@+id/two"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:background="@drawable/keyboard_selector_two"/>
+
+    <Button
+        android:id="@+id/three"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:background="@drawable/keyboard_selector_three"/>
+
+    <Button
+        android:id="@+id/four"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:background="@drawable/keyboard_selector_four"/>
+
+    <Button
+        android:id="@+id/five"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:background="@drawable/keyboard_selector_five"/>
+
+    <Button
+        android:id="@+id/six"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:background="@drawable/keyboard_selector_six"/>
+
+    <Button
+        android:id="@+id/seven"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:background="@drawable/keyboard_selector_seven"/>
+
+    <Button
+        android:id="@+id/eight"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:background="@drawable/keyboard_selector_eight"/>
+
+    <Button
+        android:id="@+id/nine"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:background="@drawable/keyboard_selector_nine"/>
+
+    <Button
+        android:id="@+id/zero"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:background="@drawable/keyboard_selector_zero"/>
+
+    <Button
+        android:id="@+id/enter"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:background="@drawable/keyboard_selector_enter"/>
+
+
+    <Button
+        android:id="@+id/delete"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:background="@drawable/keyboard_selector_delete"/>
+
+</LinearLayout>

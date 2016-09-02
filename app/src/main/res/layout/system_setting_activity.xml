@@ -1,0 +1,91 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainLayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/titleBar"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/blue_top_bar_color" >
+
+        <RelativeLayout
+            android:id="@+id/logout"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/top_btn_click"
+            android:clickable="true" >
+
+            <TextView
+                android:id="@+id/back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="17dp"
+                android:layout_marginStart="17dp"
+                android:clickable="false"
+                android:drawableLeft="@mipmap/back_white"
+                android:text="返回"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/top_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="87dp"
+                android:clickable="false"
+                android:text="系统设置"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titleBar"
+        android:background="@color/white"
+        android:orientation="horizontal" >
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/slipBtn"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/linearLayout1"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="16dp" />
+
+    <ImageView
+        android:id="@+id/imageview1"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/slipBtn"
+        android:layout_marginLeft="18dp" />
+
+    <!--android:src="@+mipmap/keyboard"-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageview1"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/imageview1"
+        android:text="键盘"
+        android:textSize="24sp" />
+
+</RelativeLayout>
